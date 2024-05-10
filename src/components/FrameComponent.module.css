@@ -1,0 +1,339 @@
+.help {
+  flex: 1;
+  position: relative;
+}
+.helpWrapper {
+  width: 225px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-29xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-5xl);
+}
+.howDoesIt,
+.whereDoYou {
+  position: relative;
+}
+.whereDoYouAskQuesionWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+}
+.howToPay {
+  position: relative;
+  display: inline-block;
+  min-width: 114px;
+}
+.howToPayWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs);
+}
+.whatIsNeeded {
+  position: relative;
+}
+.frameContainer,
+.frameDiv,
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv {
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-10xl);
+}
+.frameContainer,
+.frameGroup {
+  gap: var(--gap-29xl);
+}
+.frameGroup {
+  position: absolute;
+  top: 114px;
+  left: 869px;
+  gap: var(--gap-20xl);
+}
+.contact {
+  width: 129px;
+  position: relative;
+  display: inline-block;
+}
+.contactIcon {
+  position: relative;
+  white-space: nowrap;
+}
+.p,
+.southUsman,
+.tnagarChennai {
+  margin: 0;
+}
+.southUsmanContainer {
+  position: relative;
+}
+.contactIconParent {
+  flex-direction: column;
+  gap: var(--gap-16xl);
+}
+.contactIconParent,
+.contactParent,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-7xs);
+  font-size: var(--font-size-xl);
+}
+.contactParent {
+  position: absolute;
+  top: 114px;
+  left: 1196px;
+  flex-direction: column;
+  gap: var(--gap-22xl);
+  font-size: var(--font-size-5xl);
+}
+.platform {
+  flex: 1;
+  position: relative;
+}
+.platformWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-10xs);
+  font-size: var(--font-size-5xl);
+}
+.overwiew {
+  min-width: 80px;
+}
+.about,
+.feature,
+.overwiew,
+.pricing {
+  position: relative;
+  display: inline-block;
+}
+.feature {
+  min-width: 62px;
+  z-index: 1;
+}
+.about,
+.pricing {
+  min-width: 61px;
+}
+.about {
+  min-width: 51px;
+}
+.aboutWrapper,
+.frameParent1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.aboutWrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-10xs);
+}
+.frameParent1 {
+  position: absolute;
+  top: 114px;
+  left: 670px;
+  width: 132px;
+  flex-direction: column;
+  gap: var(--gap-19xl-8);
+}
+.resource {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.buyANew {
+  margin: 0;
+}
+.thatDomainWithin {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.policies {
+  margin: 0;
+}
+.buyANewContainer {
+  align-self: stretch;
+  height: 98px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-jost);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.resourceParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+.frameChild {
+  height: 58px;
+  width: 507px;
+  position: relative;
+  border-radius: var(--br-22xl);
+  background-color: var(--color-gainsboro-200);
+  display: none;
+  max-width: 100%;
+}
+.describe {
+  position: relative;
+  display: inline-block;
+  min-width: 111px;
+  z-index: 1;
+}
+.describeWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+}
+.frameItem {
+  height: 55px;
+  width: 167px;
+  position: relative;
+  border-radius: var(--br-22xl);
+  background-color: var(--color-plum);
+  display: none;
+}
+.send {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-jost);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 52px;
+  z-index: 2;
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-38xl) var(--padding-xs)
+    var(--padding-39xl);
+  background-color: var(--color-plum);
+  border-radius: var(--br-22xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.rectangleGroup:hover {
+  background-color: var(--color-orchid);
+}
+.frameParent2,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.rectangleParent {
+  width: 507px;
+  border-radius: var(--br-22xl);
+  background-color: var(--color-gainsboro-200);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-10xs) 0 0 var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-5xl);
+  color: var(--color-dimgray);
+  font-family: var(--font-jost);
+}
+.frameParent2 {
+  position: absolute;
+  top: 101px;
+  left: 66px;
+  width: 643px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-37xl);
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-montserrat);
+}
+.frameParent {
+  align-self: stretch;
+  height: 533px;
+  position: relative;
+  background-color: var(--color-navy);
+  overflow: hidden;
+  flex-shrink: 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-jost);
+}
+@media screen and (max-width: 1050px) {
+  .resource {
+    font-size: var(--font-size-10xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .help {
+    font-size: var(--font-size-lgi);
+  }
+  .howDoesIt,
+  .howToPay,
+  .whatIsNeeded,
+  .whereDoYou {
+    font-size: var(--font-size-base);
+  }
+  .contact {
+    font-size: var(--font-size-lgi);
+  }
+  .contactIcon,
+  .southUsmanContainer {
+    font-size: var(--font-size-base);
+  }
+  .platform {
+    font-size: var(--font-size-lgi);
+  }
+  .about,
+  .feature,
+  .overwiew,
+  .pricing {
+    font-size: var(--font-size-base);
+  }
+  .resource {
+    font-size: var(--font-size-3xl);
+  }
+  .buyANewContainer,
+  .describe,
+  .send {
+    font-size: var(--font-size-lgi);
+  }
+  .rectangleParent {
+    flex-wrap: wrap;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    padding-bottom: var(--padding-10xs);
+    box-sizing: border-box;
+  }
+  .frameParent {
+    height: auto;
+    min-height: 533;
+  }
+}
